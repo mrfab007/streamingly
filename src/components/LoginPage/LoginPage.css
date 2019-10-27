@@ -1,0 +1,91 @@
+.login-page {
+  background-color: var(--color-grey-light-1);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5%;
+}
+
+.login-page-container {
+  width: 60%;
+  height: 70%;
+  background-color: white;
+  -webkit-box-shadow: var(--shadow-light-1);
+          box-shadow: var(--shadow-light-1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login-page-container-left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+.login-page-container-left-logo {
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+
+.login-page-container-left-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.login-page-container-left-form-label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-page-container-left-form-input {
+  outline: none;
+  border: none;
+  padding: 0.4rem;
+  width: 18rem;
+  font-size: 1rem;
+  background-color: var(--color-grey-light-2);
+  margin-bottom: 1.4rem;
+}
+
+.login-page-container-left-form-button {
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  width: 40%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--color-success);
+  color: white;
+}
+
+.login-page-container-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/*# sourceMappingURL=LoginPage.css.map */
