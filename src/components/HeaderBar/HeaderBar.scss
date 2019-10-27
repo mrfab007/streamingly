@@ -1,0 +1,24 @@
+.header-bar {
+	height: 4rem;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+
+	&-container {
+		background-color: aqua;
+		width: 80%;
+		display: flex;
+		align-content: center;
+
+		&-logo {
+			height: 2.5rem;
+		}
+
+		&-link {
+			height: 2rem;
+		}
+
+		&-profile {
+		}
+	}
+}
